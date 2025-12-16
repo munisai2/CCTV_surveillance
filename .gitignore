@@ -1,7 +1,13 @@
-"dlenv/" 
-"outputs/" 
+dlenv/
+
 frames/
 crops/
-outputs/
+
 .DS_Store
 *.pt
+# Ignore all outputs by default
+outputs/*
+
+# Allow demo video
+!outputs/tracks_fused/
+!outputs/tracks_fused/output.mp4
