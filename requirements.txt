@@ -1,0 +1,22 @@
+# Core
+python>=3.8
+
+# Deep Learning
+torch>=1.12
+torchvision>=0.13
+
+# Computer Vision
+opencv-python>=4.7
+Pillow>=9.0
+numpy>=1.21
+
+# Object detection / proposals
+ultralytics>=8.0.0   # YOLOv8 (optional, used for proposals)
+
+# Utilities
+tqdm>=4.64
+matplotlib>=3.5
+scipy>=1.8
+
+# Optional (for experimentation)
+scikit-learn>=1.1
