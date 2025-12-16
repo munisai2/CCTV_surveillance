@@ -6,8 +6,7 @@ crops/
 .DS_Store
 *.pt
 # Ignore all outputs by default
-outputs/*
+outputs/**
 
 # Allow demo video
-!outputs/tracks_fused/
 !outputs/tracks_fused/output.mp4
