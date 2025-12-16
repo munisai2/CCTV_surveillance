@@ -1,2 +1,7 @@
 "dlenv/" 
 "outputs/" 
+frames/
+crops/
+outputs/
+.DS_Store
+*.pt
